@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from fbchat import Client, ThreadType
 
 app = Flask(__name__)
